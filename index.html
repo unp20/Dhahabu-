@@ -9,7 +9,7 @@
   <meta name="keywords" content="UNP Tours, Nungwi, Zanzibar, Safari, Usafiri, Ukodishaji Vifaa">
   <meta name="author" content="UNP Tours">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://unp.tours/">
+  <link rel="canonical" href="https://unp20.github.io/">
 
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="color-scheme" content="dark light">
@@ -21,23 +21,23 @@
   <meta property="og:site_name" content="UNP Tours">
   <meta property="og:title" content="UNP Tours - Nungwi, Zanzibar">
   <meta property="og:description" content="Panga safari yako ya ndoto huko Nungwi, Zanzibar na UNP Tours.">
-  <meta property="og:url" content="https://unp.tours/">
-  <meta property="og:image" content="https://unp.tours/assets/images/og-home.jpg">
+  <meta property="og:url" content="https://unp20.github.io/">
+  <meta property="og:image" content="https://unp20.github.io/nungwi-tour.jpg">
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="UNP Tours - Nungwi, Zanzibar">
   <meta name="twitter:description" content="Panga safari yako ya ndoto huko Nungwi, Zanzibar na UNP Tours.">
-  <meta name="twitter:image" content="https://unp.tours/assets/images/og-home.jpg">
+  <meta name="twitter:image" content="https://unp20.github.io/nungwi-tour.jpg">
 
   <!-- PWA & Icons -->
-  <link rel="manifest" href="/manifest.json">
-  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
 
   <!-- Preload & Styles -->
-  <link rel="preload" href="/assets/css/contact.css" as="style">
-  <link rel="stylesheet" href="/assets/css/contact.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="layout.css">
 
   <!-- JSON-LD Schema (TravelAgency) -->
   <script type="application/ld+json">
@@ -45,9 +45,9 @@
     "@context": "https://schema.org",
     "@type": "TravelAgency",
     "name": "UNP Tours",
-    "image": "https://unp.tours/assets/images/logo.png",
-    "@id": "https://unp.tours",
-    "url": "https://unp.tours/",
+    "image": "https://unp20.github.io/logo.svg",
+    "@id": "https://unp20.github.io",
+    "url": "https://unp20.github.io/",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Nungwi Road",
@@ -86,18 +86,18 @@
   <!-- Header & Navigation -->
   <header>
     <div class="nav-container">
-      <a href="/" class="logo" aria-label="UNP Tours Nyumbani">
-        <img src="/assets/images/logo.svg" alt="UNP Tours Logo" width="120" height="40">
+      <a href="index.html" class="logo" aria-label="UNP Tours Nyumbani">
+        <img src="logo.svg" alt="UNP Tours Logo" width="120" height="40">
       </a>
       
-      <button class="hamburger" aria-label="Fungua Menyu" aria-expanded="false" aria-controls="mobile-menu" aria-label="Chagua Lugha">
+      <button class="hamburger" aria-label="Fungua Menyu" aria-expanded="false" aria-controls="mobile-menu">
         <svg role="img" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24"><path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2"/></svg>
       </button>
 
       <nav aria-label="Urambazaji Mkuu">
         <ul class="nav-links" id="mobile-menu">
-          <li><a href="/" aria-current="page">Nyumbani</a></li>
-          <li><a href="/contact.html">Wasiliana Nasi</a></li>
+          <li><a href="index.html" aria-current="page">Nyumbani</a></li>
+          <li><a href="contact.html">Wasiliana Nasi</a></li>
         </ul>
       </nav>
     </div>
@@ -118,8 +118,8 @@
         
         <article class="tour-card">
           <picture>
-            <source srcset="/assets/images/nungwi-tour.webp" type="image/webp">
-            <img src="/assets/images/nungwi-tour.jpg" alt="Safari ya Nungwi na Matembezi ya Baharini" width="600" height="400" loading="eager" sizes="(max-width: 768px) 100vw, 33vw">
+            <source srcset="nungwi-tour.webp" type="image/webp">
+            <img src="nungwi-tour.jpg" alt="Safari ya Nungwi na Matembezi ya Baharini" width="600" height="400" loading="eager" sizes="(max-width: 768px) 100vw, 33vw">
           </picture>
           <h3 class="text-2xl">Matembezi ya Nungwi</h3>
           <p>Gundua fukwe nzuri na utamaduni wa kaskazini mwa Zanzibar.</p>
@@ -127,8 +127,8 @@
 
         <article class="tour-card">
           <picture>
-            <source srcset="/assets/images/safari-blue.webp" type="image/webp">
-            <img src="/assets/images/safari-blue.jpg" alt="Safari Blue Zanzibar" width="600" height="400" loading="lazy" sizes="(max-width: 768px) 100vw, 33vw">
+            <source srcset="safari-blue.webp" type="image/webp">
+            <img src="safari-blue.jpg" alt="Safari Blue Zanzibar" width="600" height="400" loading="lazy" sizes="(max-width: 768px) 100vw, 33vw">
           </picture>
           <h3 class="text-2xl">Safari Blue</h3>
           <p>Furahia siku nzuri ya kuogelea na kula matunda ya baharini.</p>
@@ -149,14 +149,14 @@
         <nav aria-label="Viungo vya Haraka">
           <h3>Viungo</h3>
           <ul>
-            <li><a href="/">Nyumbani</a></li>
-            <li><a href="/contact.html">Wasiliana Nasi</a></li>
+            <li><a href="index.html">Nyumbani</a></li>
+            <li><a href="contact.html">Wasiliana Nasi</a></li>
           </ul>
         </nav>
       </section>
       <section>
         <h3>Jarida</h3>
-        <form action="/subscribe" method="post" novalidate>
+        <form action="#" method="post" novalidate>
           <input type="email" name="email" placeholder="Barua pepe yako" autocomplete="email" inputmode="email" aria-required="true" required>
           <button type="submit">Jiandikishe</button>
         </form>
@@ -173,5 +173,5 @@
   </noscript>
 
 </body>
-    </html>
-    
+  </html>
+  
