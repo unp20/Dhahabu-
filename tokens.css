@@ -1,0 +1,130 @@
+/**
+ * ==========================================
+ * UNP TOURS - DESIGN SYSTEM TOKENS (ULTIMATE MASTER - FINAL)
+ * ==========================================
+ */
+
+:root {
+  /* --- 1. BRAND & THEME COLORS --- */
+  --primary-color: #0d1b2a;
+  --primary-color-dark: #050b12;  /* Tone nzito kwa ajili ya gradients za usiku wa manane */
+  --secondary-color: #1b263b;     /* Tone ya kusaidia kadi na gradients */
+  --accent-color: #d4af37;        /* Gold / Luxury accent */
+  --accent-hover: #e6c547;
+  
+  --text-light: #f8f9fa;
+  --text-light-muted: #cbd5e1;
+  --text-muted: #94a3b8;
+  
+  --card-bg: #102a43;
+  --media-bg: #070f18;
+  
+  --gold-border: rgba(212, 175, 55, 0.4);
+  --gold-glow-subtle: rgba(212, 175, 55, 0.25);
+  --gold-glow-medium: rgba(212, 175, 55, 0.4);
+  --gold-glow-strong: rgba(212, 175, 55, 0.8);
+
+  /* Status, Focus & Opacity Colors */
+  --color-success: #10b981;
+  --color-error: #ef4444;
+  --focus-ring: 0 0 0 3px rgba(212, 175, 55, 0.5);
+  --opacity-disabled: 0.5;
+
+  /* Print Colors */
+  --print-bg: #ffffff;
+  --print-text: #000000;
+
+  /* --- 2. BORDER RADIUS --- */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 50%;     /* Duara kamili (icons, avatars) */
+  --radius-pill: 9999px;  /* Pill shape (badges, tags) */
+
+  /* --- 3. TYPOGRAPHY & FONTS --- */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 2rem;       /* 32px */
+  --text-4xl: 2.5rem;     /* 40px */
+
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+
+  /* --- 4. SPACING & LAYOUT --- */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+  --spacing-xxl: 64px;
+
+  --container-width: 1200px;
+
+  /* Breakpoints */
+  --bp-sm: 576px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+
+  /* --- 5. TYPOGRAPHY TRACKING / LETTER-SPACING --- */
+  --tracking-tight: -0.01em;     /* Headings kubwa */
+  --tracking-normal: 0.0625rem;  /* 1px - Buttons / standard UI */
+  --tracking-wide: 0.125rem;     /* 2px - Badges / uppercase tags */
+  --tracking-wider: 0.25rem;     /* 4px - Badges zinazohitaji nafasi pana */
+  --tracking-widest: 0.5rem;     /* 8px - Extra wide spacing */
+
+  /* --- 6. SHADOWS, TRANSITIONS & Z-INDEX --- */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.7);
+
+  --transition-fast: 0.15s ease;
+  --transition: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-overlay: 400;
+  --z-header: 500;
+  --z-widget: 600;        /* Kwa ajili ya vitufe vya kuelea kama WhatsApp/Chat */
+  --z-modal: 1000;
+  --z-tooltip: 1100;
+  --z-toast: 1200;
+}
+
+/* --- 7. THEME OVERRIDES --- */
+[data-theme="midnight"] {
+  --primary-color: #070f18;
+  --primary-color-dark: #020508;
+  --secondary-color: #0d1b2a;
+  --card-bg: #0d1b2a;
+  --media-bg: #03070c;
+  --gold-border: rgba(212, 175, 55, 0.45);
+}
+
+[data-theme="ocean"] {
+  --primary-color: #0b2545;
+  --primary-color-dark: #061322;
+  --secondary-color: #134074;
+  --card-bg: #1d3557;     /* Imerekebishwa ili kutoa utofauti mzuri na secondary-color */
+  --media-bg: #081b33;
+  --text-light-muted: #e0f2fe;
+  --gold-border: rgba(212, 175, 55, 0.5);
+  }
